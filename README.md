@@ -56,3 +56,10 @@ The audio recording is done using the [Web Audio API](https://developer.mozilla.
    - Fill in `AZURE_KEY` with your speech service azure key
    - Fill in `AZURE_REGION` with your speech service azure region
 ![](https://firebasestorage.googleapis.com/v0/b/engpronun-d85fd.appspot.com/o/document%2FScreenshot%202023-11-04%20at%2010.13.41%20AM.png?alt=media&token=2ad1df24-9612-4fda-8ea0-f70fd3ce353f&_gl=1*bbblh1*_ga*MTU5Mzc3MDQwMy4xNjk0NjYyMzI5*_ga_CW55HF8NVT*MTY5OTEwODU1MS4xOC4xLjE2OTkxMTA5NDAuNDcuMC4w)
+
+ In your `/backend/.env` file:
+
+   - Fill in `AZURE_KEY` with your speech service azure key
+   - Fill in `AZURE_REGION` with your speech service azure region
+   - Fill in `BUCKET_NAME` with your Firebase bucket name
+
