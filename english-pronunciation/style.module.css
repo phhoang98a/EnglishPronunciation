@@ -1,0 +1,60 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #40407a;
+  border-bottom: 2px solid #2c2c54;
+  color: #f7f1e3;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: #59578e;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column; 
+  flex-wrap: nowrap;   
+  background: #f2f2ff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center; /* horizontally centers the buttons */
+  gap: 10px; /* adds space between the buttons */
+  margin-top: 10px;
+}
+
+.volumeContainer {
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%; /* Ensure it takes full width */
+}
+
+.sampleArea {
+  background: #706fd3;
+  color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sampleArea {
+    width: 750px !important;
+  }
+}
+
+@media (min-width: 1024px){
+  .sampleArea {
+    width: 900px;
+  }
+} 
