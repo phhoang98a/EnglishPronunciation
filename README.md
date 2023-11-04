@@ -63,3 +63,20 @@ The audio recording is done using the [Web Audio API](https://developer.mozilla.
    - Fill in `AZURE_REGION` with your speech service azure region
    - Fill in `BUCKET_NAME` with your Firebase bucket name
 
+### Start the development server
+
+   For backend:
+
+   ```bash
+   cd Backend
+   flask run
+   ```
+
+   For frontend:
+
+   ```bash
+   cd english-pronunciation
+   npm install
+   npm run dev
+   ```
+### Function
